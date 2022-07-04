@@ -9,18 +9,22 @@ a{
 
 body {
   font-family: 'Open Sans', sans-serif;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  width: 1440px;
 }
 
 header{
   width: 100%;
-  padding: 50px 100px;
+  padding: 50px 70px;
   display: flex;
   flex-direction: column;
   background-image: url('bg-hero-desktop.svg') ;
   background-color: hsl(193, 100%, 96%);
   background-repeat: no-repeat;
+}
+.cnt{
+  margin: 30px;
 }
 
 .logo{
@@ -28,7 +32,7 @@ header{
   justify-content: space-between;
 }
 
-div .try{
+.try a{
   background: white;
   padding: 7px 33px;
   border-radius: 50px;
@@ -36,8 +40,14 @@ div .try{
   font-size: 10px;
   font-weight: 700;
   text-transform: capitalize;
+  margin-right: 80px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+  color: hsl(192, 100%, 9%);
 }
-
+.try a:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
 .content1{
   margin-top: 50px;
   display: flex;
@@ -48,27 +58,143 @@ div .try{
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   text-transform: capitalize;
+  color: hsl(192, 100%, 9%);
 }
 .write-up p{
   font-size: 13px;
   font-weight: 400;
-  padding-right: 3px;
+  line-height: 1.45;
+  color: hsl(192, 100%, 9%);
 }
 div .write-up{
-  width: 31%;
+  width: 32%;
   margin-top: 55px;
 }
 div .mock{
   margin-left: 50px;
 }
-div .started{
+.started a{
   background-color:  hsl(322, 100%, 66%);
-  border: 2px solid hsl(208,11%,55%);
-  color:white;
-  padding: 7px 33px;
+  border: 2px solid hsl(322,100%,66%);
+  color: #fff;
+  padding: 8px 47px;
   border-radius: 50px;
   font-size: 10px;
   font-weight: 700;
+  text-align: center;
   text-transform: capitalize;
 }
+.started a:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+div .started{
+  margin-top: 30px;
+}
 
+main{
+  display: flex;
+  flex-direction: column;
+  
+}
+.box2{
+  padding: 75px 70px;
+  justify-items: center;
+  
+  
+}
+
+div .flex-tag{
+  display: flex;
+  border-radius: 7px;
+  align-content: center;
+  justify-content: space-between;
+  padding: 25px 15px 25px 50px;
+  border:2px solid white;
+  box-shadow: 2px 2px 2px 2px rgb(162, 160, 160, 0.19);
+  margin-top: 25px;
+  margin-right: 80px;
+  margin-left: 80px;
+  height: 300px;
+  width: 900px;
+}
+.text h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: hsl(192, 100%, 9%);
+}
+.text p{
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.45;
+  color: hsl(208, 11%, 55%);
+}
+.text{
+  margin: 50px 20px;
+}
+.div-img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.get-started{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    width: 500px;
+    position: relative;
+    top: 8px;
+    margin-left: 380px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px 5px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px 2px rgb(162, 160, 160, 0.19);
+    color: hsl(192, 100%, 9%);
+}
+.btn-free a{
+  background-color:  hsl(322, 100%, 66%);
+  border: 2px solid hsl(322,100%,66%);
+  box-shadow: 2px 2px 2px 2px rgb(115, 115, 115, 0.19);
+  color: #fff;
+  padding: 13px 60px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+.btn-free a:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+div .btn-free{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer{
+    display:flex;
+    flex-direction: column;
+    margin-top: -55px;
+    padding:100px 20px;
+    justify-content: space-between;
+    gap:30px;
+    background:hsl(192,100%,9%);
+    color:white;
+}
+
+.social-connect{
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+}
+.first-footer{
+    display:flex;
+    gap:20px;
+    align-items: center;
+    margin:20px;
+}
+,first-footer p
